@@ -25,7 +25,7 @@ function renderExpenses() {
 		const expenseRow = document.createElement("tr");
 		expenseRow.innerHTML = `
       <td>${expense.name}</td>
-      <td>$${expense.amount}</td>
+      <td>ZAR${expense.amount}</td>
       <td class="delete-btn" data-id="${i}">Delete</td>
     `;
 		expenseList.appendChild(expenseRow);

@@ -42,7 +42,7 @@ input[type="number"]::placeholder {
 
 button {
     padding: 10px 20px;
-    background-color: #4caf50;
+    background-color: #87CEEB;
     color: white;
     border: none;
     border-radius: 4px;
@@ -50,7 +50,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #1E90FF;
 }
 
 .expense-table {
