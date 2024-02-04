@@ -26,7 +26,7 @@ function renderExpenses() {
 		expenseRow.innerHTML = `
       <td>${expense.name}</td>
       <td>$${expense.amount}</td>
-      <td class="delete-btn" data-id="${i}">Delete</td>
+      <td class="delete-btn" data-id="ZAR{i}">Delete</td>
     `;
 		expenseList.appendChild(expenseRow);
 
