@@ -1,2 +1,5 @@
-# Code_Alpha_Expense_Tracker
-Code Alpha Internship
+# Code Alpha Expense Tracker
+
+i have to fix the logic history
+
+
