@@ -69,5 +69,14 @@ function removeTransaction(id) {
 
 // #8. Update local storage with transactions
 function updateLocalStorage() {
-	// to complete this...
+    localStorage.setItem('transactions', JSON.stringify(transactions));
 }
+
+// #9. Initialize the app
+function init() {
+    list.innerHTML = '';
+    transactions.forEach(addTransactionDOM);
+    updateValues();
+}
+
+init(); // #10. Call this function to load existing transactions on page load
